@@ -258,7 +258,7 @@ public class StudentService {
 			// 입력 받은 index번째에 새로운 학생 정보를 세팅 == 수정
 			// 이때, index번째에 있던 기존 학생 정보가 반환된다.
 			
-			Student temp = studentList.set(index, new Student(name, age, region, gender, score));
+			Student temp = studentList.set(index, new Student(name, age, region, gender, score) );
 			
 			return temp.getName() + "의 정보가 변경되었습니다.";
 		}

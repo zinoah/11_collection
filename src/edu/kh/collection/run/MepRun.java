@@ -9,8 +9,8 @@ public class MepRun {
 		MapService map = new MapService();
 		
 		//map.ex1();
-		//map.ex2();
-		map.ex3();
+		map.ex2();
+		//map.ex3();
 	}
 
 }
